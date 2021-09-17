@@ -1,0 +1,19 @@
+x = input("Enter x: ")
+y = input("Enter y: ")
+z = input("Enter z: ")
+if (x > y):
+    if (x > z):
+        if (y > z):
+            print("In descending order: ", x, y, z)
+        else:
+            print("In descending order: ", x, z, y)
+    else:
+      print("In descending order: ", z, x, y)
+if (x < y):
+    if (y > z):
+        if (x > z):
+            print("In descending order: ", y, x, z)
+        else:
+            print("In descending order: ", y, z, x)
+    else:
+      print("In descending order: ", z, y, x)
